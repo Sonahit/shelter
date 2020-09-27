@@ -1,0 +1,12 @@
+@import "about";
+@import "friends";
+@import "help";
+@import "donation";
+
+main {
+    @include minmax-w(1920px);
+    & > * > .content {
+        @include minmax-w(1200px);
+        margin: 0 auto;
+    }
+}

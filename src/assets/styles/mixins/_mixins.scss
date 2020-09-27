@@ -1,0 +1,24 @@
+@mixin minmax-w($w) {
+    min-width: $w;
+    max-width: $w;
+}
+
+@mixin minmax-h($h) {
+    min-height: $h;
+    max-height: $h;
+}
+
+@mixin minmax($h, $w: 1200px) {
+    @include minmax-w($w);
+    @include minmax-h($h);
+}
+
+@mixin hw($h, $w) {
+    height: $h;
+    width: $w;
+}
+
+@mixin hwi($h, $w) {
+    height: $h !important;
+    width: $w !important;
+}

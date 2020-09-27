@@ -3,9 +3,18 @@
 @import "../../../node_modules/normalize.css/normalize.css";
 
 /* BASE */
-
+@import "mixins/mixins";
 @import "base/fonts";
 @import "base/variables";
 @import "base/reset";
 @import "base/base";
 @import "base/root";
+
+/* COMPONENTS */
+
+@import "components/buttons";
+@import "components/arrow";
+@import "components/cards";
+@import "components/header";
+@import "components/main/index";
+@import "components/footer";

@@ -1,0 +1,48 @@
+.about {
+    @include minmax-h(588px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+        @include minmax-w(1200px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 17px;
+        &-inner {
+            margin-left: 120px;
+            width: 430px;
+            h3,
+            p {
+                padding-bottom: 25px;
+            }
+
+            h3 {
+                color: var(--dark-l);
+
+                font-family: Georgia;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 45px;
+                letter-spacing: 0.06em;
+                text-align: left;
+            }
+
+            p {
+                color: var(--dark-xl);
+
+                font-family: Arial;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                &:last-child {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
