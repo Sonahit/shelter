@@ -1,0 +1,7 @@
+mixin card(text, heading, image = "../assets/imgs/photo.png")
+    .card
+        .card-img
+            img(src=image, alt="card-image")
+        .card-description
+            h3=heading
+            +button(text)

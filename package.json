@@ -1,0 +1,22 @@
+{
+  "name": "rsschool-private",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rolling-scopes-school/sonahit-JS2020Q3.git",
+  "author": "Ivan Sadykov <grandpajok@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.pug",
+    "start:c": "parcel src/components.pug",
+    "build": "parcel build --no-source-maps --no-content-hash --no-minify --public-url /sonahit-JS2020Q3/webdev/ ./src/index.pug"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-keep-asset-folders": "^0.2.0",
+    "pug": "^3.0.0",
+    "sass": "^1.26.11"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

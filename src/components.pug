@@ -1,17 +1,12 @@
 extends layouts/base
 
+include ./include
 
 block styles
     link(rel="stylesheet", href="./assets/styles/styles.scss")
 
-block header
-    section
-        header
-            p hellow_world
-
 block content
-    main
-
-block footer
-    footer
-
+    +card("Hello World", "hello")
+    br
+    br
+    +card("Hello World", "hello", true)
