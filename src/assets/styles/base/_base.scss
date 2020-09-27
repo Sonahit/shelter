@@ -1,11 +1,11 @@
 body {
-    @include minmax-w(1920px);
+    @include minmax-w($max-width);
 }
 
 .wrapper {
-    @include minmax-w(1920px);
+    @include minmax-w($max-width);
     & > * {
-        @include minmax-w(1200px);
+        @include minmax-w($min-width);
         margin: 0 auto;
     }
     &.header-container {

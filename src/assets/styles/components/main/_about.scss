@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     .content {
-        @include minmax-w(1200px);
+        @include minmax-w($min-width);
         display: flex;
         justify-content: center;
         align-items: center;

@@ -4,9 +4,9 @@
 @import "donation";
 
 main {
-    @include minmax-w(1920px);
+    @include minmax-w($max-width);
     & > * > .content {
-        @include minmax-w(1200px);
+        @include minmax-w($min-width);
         margin: 0 auto;
     }
 }

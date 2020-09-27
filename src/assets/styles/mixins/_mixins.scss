@@ -8,7 +8,7 @@
     max-height: $h;
 }
 
-@mixin minmax($h, $w: 1200px) {
+@mixin minmax($h, $w: $min-width) {
     @include minmax-w($w);
     @include minmax-h($h);
 }
