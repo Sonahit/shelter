@@ -5,7 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+
+    @include hover();
+
     &:hover {
         background-color: var(--primary);
     }

@@ -22,3 +22,10 @@
     height: $h !important;
     width: $w !important;
 }
+
+@mixin hover() {
+    cursor: url("/assets/imgs/cursors/hover.png"), pointer !important;
+    * {
+        cursor: url("/assets/imgs/cursors/hover.png"), pointer !important;
+    }
+}
